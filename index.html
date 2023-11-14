@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ae387eaef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="circle1"></div>
+        <div class="card">
+            <div class="image">
+                <img class="image" src="./Harshit_Photo.jpg" alt="">
+            </div>
+            <div class="name">
+                <h1>Harshit Rajput</h1>
+            </div>
+            <div class="bio">
+                <h3>Frontend Developer</h3>
+                <h3>UX Designer</h3>
+            </div>
+            <div class="but">
+                <button class="b1" onclick="openModal()">
+                    <i class="fa-solid fa-share"></i>
+                    Share My Profile
+                </button>
+                <button class="b2">Follow Me</button>
+            </div>
+        </div>
+        <div class="circle2"></div>
+       
+    </div>
+    <div class="modal">
+        <div class="header">
+            <div class="heading">
+                <p>Share My Profile</p>
+            </div>
+            <div class="cross" onclick="closeModal()">
+                <i class="fa-solid fa-xmark fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <div class="para">
+            <p>Share this via</p>
+        </div>
+        <div class="social">
+            <div class="icons" id="a">
+                <a href=""><i class="fa-brands fa-facebook-f fa-2xl" style="color: #005eff;"></i></a> 
+            </div>
+            <div class="icons" id="b">
+                <a href=""><i class="fa-brands fa-twitter fa-2xl" style="color: #70a5ff;"></i></a>
+            </div>
+            <div class="icons" id="c">
+                <a href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #fd2666;"></i></i></a>
+            </div>
+            <div class="icons" id="d">
+                <a href=""><i class="fa-brands fa-whatsapp fa-2xl" style="color: #33ff36;"></i></a>
+            </div>
+            <div class="icons" id="e">
+                <a href=""><i class="fa-brands fa-telegram fa-2xl" style="color: #9fc0f9;"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" onclick="closeModal()"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
